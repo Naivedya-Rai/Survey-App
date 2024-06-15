@@ -79,7 +79,8 @@ Now you can use the prisma client in your code.
 
 ### Apply migrations
 ```bash
-npx prisma migrate dev --name <name for your migration> 
+npx prisma migrate dev --name <name for your migration>
+
 ```
 
 ### Create an Express App and add Endpoints

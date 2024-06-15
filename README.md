@@ -52,7 +52,7 @@ cd survey-app
 
 
 ```bash
-`npm init -y` 
+npm init -y
 ```
 
 ### Install dependencies
@@ -78,10 +78,8 @@ npx prisma generate
 Now you can use the prisma client in your code.
 
 ### Apply migrations
-```bash
-npx prisma migrate dev --name <name for your migration>
 
-```
+`npx prisma migrate dev --name <name for your migration>`
 
 ### Create an Express App and add Endpoints
 Or Simply clone this repo and add your own db connection string and run.

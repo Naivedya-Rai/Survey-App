@@ -79,7 +79,9 @@ Now you can use the prisma client in your code.
 
 ### Apply migrations
 
-`npx prisma migrate dev --name <name for your migration>`
+```bash 
+npx prisma migrate dev --name <name for your migration>
+```
 
 ### Create an Express App and add Endpoints
 Or Simply clone this repo and add your own db connection string and run.

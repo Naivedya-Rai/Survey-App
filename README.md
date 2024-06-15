@@ -38,33 +38,33 @@ Please follow the standard instructions to initiate a node app
 
 ### Clone the repo
 
-```bash
-git clone <https://github.com/Naivedya-Rai/Survey-App.git>
+```
+git clone https://github.com/Naivedya-Rai/Survey-App.git
 ```
 
 ### Change your directory
 
-```bash
+```
 cd survey-app
 ```
 
 ### Initiate a node app
 
 
-```bash
+```
 npm init -y
 ```
 
 ### Install dependencies
 
 
-```bash
+```
 npm install express prisma
 ```
 ### Create Prisma schema file
 
 You can directly paste the provided schema into it. Make sure to provide the db url.
-```bash
+```
 npx prisma init
 ```
 ### Configure Database Connection
@@ -72,14 +72,14 @@ npx prisma init
 In the `schema.prisma` file, update `env("DATABASE_URL")` with your actual PostgreSQL database connection URL.
 
 ### Generate Prisma Client
-```bash
+```
 npx prisma generate
 ```
 Now you can use the prisma client in your code.
 
 ### Apply migrations
 
-```bash 
+```
 npx prisma migrate dev --name <name for your migration>
 ```
 
@@ -87,8 +87,8 @@ npx prisma migrate dev --name <name for your migration>
 Or Simply clone this repo and add your own db connection string and run.
 
 ### Clone the repo
-```bash
-git clone <https://github.com/Naivedya-Rai/Survey-App.git>
+```
+git clone https://github.com/Naivedya-Rai/Survey-App.git
 ```
 
 ## Directory Structure
